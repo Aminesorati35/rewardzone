@@ -27,13 +27,6 @@ const Navbar = () => {
               <span className="text-xs font-bold text-purple-400">5.2M+</span>
               <span className="text-xs text-gray-400 ml-1">Rewards Claimed</span>
             </div>
-
-            <button 
-              onClick={() => setMenuOpen(!menuOpen)}
-              className="md:hidden p-2 rounded-lg bg-purple-500/20 border border-purple-500/30 hover:bg-purple-500/30 transition-colors"
-            >
-              {menuOpen ? <X className="w-5 h-5 text-purple-300" /> : <Menu className="w-5 h-5 text-purple-300" />}
-            </button>
           </div>
         </div>
       </div>
