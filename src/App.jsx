@@ -41,7 +41,7 @@ function App() {
           <p className="text-gray-400">Claim free rewards in minutes</p>
         </div>
         
-        <div className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 sm:gap-6">
           {rewards.map((reward) => (
             <RewardCard 
               key={reward.id} 
