@@ -87,7 +87,7 @@ const RewardCard = ({ reward, setShowModal, setLockerId }) => {
             <Gift className="w-5 h-5 transition-transform group-hover/btn:scale-110" />
             <Download className="w-3 h-3 absolute -top-1 -right-1" />
           </div>
-          <span className="text-sm tracking-wide">Claim Reward</span>
+          <span className="text-sm tracking-wide">Download Now</span>
         </button>
       </div>
     </div>
