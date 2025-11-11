@@ -63,20 +63,20 @@ const RewardCard = ({ reward, setShowModal, setLockerId }) => {
         
         {/* Stats */}
         <div className="flex items-center justify-between mb-4 px-1">
-          <div className="flex items-center gap-1 text-amber-400">
-            <Star className="w-4 h-4 fill-current" />
-            <span className="font-bold text-sm">{reward.rating}</span>
-          </div>
-          
-          <div className="flex items-center gap-1 text-blue-400">
-            <Users className="w-4 h-4" />
-            <span className="text-gray-300 text-xs font-medium">{reward.users}</span>
-          </div>
-          
-          <div className="text-gray-400 text-xs font-medium bg-white/5 px-2 py-1 rounded-lg">
-            {reward.size}
-          </div>
-        </div>
+  <div className="flex items-center gap-1.5 text-amber-400">
+    <Star className="w-5 h-5 fill-current" />
+    <span className="font-bold text-base">{reward.rating}</span>
+  </div>
+  
+  <div className="flex items-center gap-1.5 text-blue-400">
+    <Users className="w-5 h-5" />
+    <span className="text-gray-200 text-sm font-semibold">{reward.users}</span>
+  </div>
+  
+  <div className="text-gray-300 text-sm font-semibold bg-white/10 px-3 py-1.5 rounded-lg border border-white/10">
+    {reward.size}
+  </div>
+</div>
         
         {/* CTA Button */}
         <button
