@@ -81,11 +81,11 @@ const RewardCard = ({ reward, setShowModal, setLockerId }) => {
         {/* CTA Button */}
         <button
           onClick={handleClaim}
-          className="w-full bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-500 hover:to-blue-500 text-white font-semibold py-3 px-4 rounded-xl transition-all duration-300 flex items-center justify-center gap-3 cursor-pointer shadow-lg hover:shadow-purple-500/25 hover:scale-[1.02] active:scale-[0.98] group/btn"
+          className="w-full  bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-500 hover:to-blue-500 text-white font-semibold py-3 px-4 rounded-xl transition-all duration-300 flex items-center justify-center gap-5 cursor-pointer shadow-lg hover:shadow-purple-500/25 hover:scale-[1.02] active:scale-[0.98] group/btn"
         >
-          <div className="relative">
-            <Gift className="w-5 h-5 transition-transform group-hover/btn:scale-110" />
-            <Download className="w-3 h-3 absolute -top-1 -right-1" />
+          <div className="relative flex justify-center items-center ">
+            
+            <Download className="text-2xl absolute font-bold " />
           </div>
           <span className="text-sm tracking-wide">Download Now</span>
         </button>

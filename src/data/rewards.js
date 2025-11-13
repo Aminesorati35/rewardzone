@@ -1,4 +1,4 @@
-import { Code, Shield, Infinity, Zap } from "lucide-react";
+import { Code, Shield, Infinity, Zap, Eye } from "lucide-react";
 
 const rewards = [
   {
@@ -27,6 +27,34 @@ const rewards = [
   reviews: [
     { name: "Kai Johnson", initials: "KJ", rating: 5, text: "Works perfectly with the new update, no bans so far!", gradient: "from-green-500 to-blue-500" },
     { name: "Mila Perez", initials: "MP", rating: 5, text: "Auto farm is super smooth and easy to use. Great script!", gradient: "from-yellow-500 to-orange-500" }
+  ]
+},
+{
+  id: "stealbrainrotv1",
+  title: "Steal a Brainrot Script (Updated)",
+  description: "Full auto wins, instant steal, and ESP detection — works perfectly with the latest update!",
+  tags: ["Anti Hit", "Brainrot ESP", "Floor Steal", "Teleport"],
+  rating: 4.8,
+  users: "1.7M",
+  size: "2.9MB",
+  badge: "HOT", // or "NEW", "POPULAR", "PRO"
+  lockerId: "347d76",
+  category: "Roblox Scripts",
+  heroImage: "https://i.ytimg.com/vi/v01mC3aKWzY/maxresdefault.jpg",
+  images: [
+    "https://tr.rbxcdn.com/3096b6a8eb52be2c6cbf154e34a4f29c/768/432/Image/Webp/noFilter",
+    "https://staticg.sportskeeda.com/editor/2024/05/ab443-17155335702522-1920.jpg",
+    "https://cdn.mos.cms.futurecdn.net/uzYyDhbk9s8eAKeCZA9j5L.jpg"
+  ],
+  features: [
+    { icon: Zap, title: "Instant Steal", desc: "Steal brains instantly with auto timing" },
+    { icon: Eye, title: "Brainrot ESP", desc: "Locate players and brains through walls" },
+    { icon: Map, title: "Smart Teleport", desc: "Teleport directly to targets or safe zones" },
+    { icon: Shield, title: "Anti-Ban", desc: "Safe execution with optimized detection bypass" }
+  ],
+  reviews: [
+    { name: "Liam Carter", initials: "LC", rating: 5, text: "Legit the best script for Steal a Brainrot, super fast and smooth!", gradient: "from-purple-500 to-pink-500" },
+    { name: "Ava Kim", initials: "AK", rating: 5, text: "ESP and auto steal work flawlessly. No lag, no ban!", gradient: "from-blue-500 to-indigo-500" }
   ]
 }
 
