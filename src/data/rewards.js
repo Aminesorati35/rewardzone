@@ -13,7 +13,7 @@ const rewards = [
   badge: "HOT", // or "NEW", "POPULAR", "PRO"
   lockerId: "347d76",
   category: "Roblox Scripts",
-  heroImage: "https://i.ytimg.com/vi/v01mC3aKWzY/maxresdefault.jpg",
+  heroImage: "https://api.rekonise.com/storage/serve/b64_NDk3NjY1LzE3NjMxODExOTgwMDUtRG9kYWp0ZSBuYXNsb3YgKDMpLnBuZw",
   images: [
     "https://tr.rbxcdn.com/3096b6a8eb52be2c6cbf154e34a4f29c/768/432/Image/Webp/noFilter",
     "https://staticg.sportskeeda.com/editor/2024/05/ab443-17155335702522-1920.jpg",
