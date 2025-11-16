@@ -1,16 +1,17 @@
-import { Code, Shield, Infinity, Zap, Eye } from "lucide-react";
+import { Code, Shield, Infinity, Zap, Eye, Leaf, Users } from "lucide-react";
 
 const rewards = [
  
 {
   id: "stealbrainrotv1",
+  gameName: "Steal a Brainrot",
   title: "Steal a Brainrot Script (Updated)",
   description: "Full auto wins, instant steal, and ESP detection — works perfectly with the latest update!",
   tags: ["Anti Hit", "Brainrot ESP", "Floor Steal", "Teleport"],
   rating: 4.8,
   users: "1.7M",
   size: "2.9MB",
-  badge: "HOT", // or "NEW", "POPULAR", "PRO"
+  badge: "HOT",
   lockerId: "347d76",
   category: "Roblox Scripts",
   heroImage: "https://api.rekonise.com/storage/serve/b64_NDk3NjY1LzE3NjMxODExOTgwMDUtRG9kYWp0ZSBuYXNsb3YgKDMpLnBuZw",
@@ -30,15 +31,45 @@ const rewards = [
     { name: "Ava Kim", initials: "AK", rating: 5, text: "ESP and auto steal work flawlessly. No lag, no ban!", gradient: "from-blue-500 to-indigo-500" }
   ]
 },
- {
+{
+  id: "99nightsforestv1",
+  gameName: "99 Nights in the Forest",
+  title: "99 Nights in the Forest Script (Updated)",
+  description: "Infinity saplings, auto flower, bring all, and full mobile & PC support — fully undetected!",
+  tags: ["Infinity Saplings", "Auto Flower", "Bring All", "Mobile & PC"],
+  rating: 4.9,
+  users: "2.3M",
+  size: "3.1MB",
+  badge: "NEW",
+  lockerId: "w6ox21",
+  category: "Roblox Scripts",
+  heroImage: "https://i3.ytimg.com/vi/ScwpHKBaF2Y/maxresdefault.jpg",
+  images: [
+    "https://tr.rbxcdn.com/6c836acbc78261b14475d8b0304a3555/768/432/Image/Webp/noFilter",
+    "https://staticg.sportskeeda.com/editor/2023/12/dcfb8-17022183051865-1920.jpg",
+    "https://cdn.mos.cms.futurecdn.net/TaF9R8ZP0y7swfP1UHk5Jb.jpg"
+  ],
+  features: [
+    { icon: Zap, title: "Infinity Saplings", desc: "Generate unlimited saplings instantly" },
+    { icon: Leaf, title: "Auto Flower", desc: "Automatically grow and collect flowers on loop" },
+    { icon: Users, title: "Bring All", desc: "Teleport all players to your location safely" },
+    { icon: Shield, title: "Anti-Ban", desc: "Secure execution with bypass protections" }
+  ],
+  reviews: [
+    { name: "Evan Brooks", initials: "EB", rating: 5, text: "Best script for 99 Nights! Saplings and auto flower save so much time.", gradient: "from-green-500 to-lime-500" },
+    { name: "Mia Torres", initials: "MT", rating: 5, text: "Bring All works perfectly on mobile. Zero lag!", gradient: "from-yellow-500 to-orange-500" }
+  ]
+},
+{
   id: "bloxfruitsupdate",
+  gameName: "Blox Fruits",
   title: "Blox Fruits Script (Updated)",
   description: "Latest auto farm, fruit sniper, and teleport features — fully undetected!",
   tags: ["Auto Farm", "Fruit Sniper", "Teleport", "ESP"],
   rating: 4.9,
   users: "3.2M",
   size: "3.4MB",
-  badge: "NEW", // or "HOT", "POPULAR", "PRO"
+  badge: "NEW",
   lockerId: "82drd3",
   category: "Roblox Scripts",
   heroImage: "https://apkmody.cx/wp-content/uploads/2025/10/script-blox-fruits-1.jpg",
@@ -58,6 +89,7 @@ const rewards = [
     { name: "Mila Perez", initials: "MP", rating: 5, text: "Auto farm is super smooth and easy to use. Great script!", gradient: "from-yellow-500 to-orange-500" }
   ]
 }
+
   
   
 ];

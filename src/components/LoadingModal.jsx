@@ -10,7 +10,7 @@ const LoadingModal = ({ isOpen, onComplete, device, lockerId }) => {
   const steps = [
     { title: "Verifying Device", desc: `Checking ${device || 'device'} compatibility` },
     { title: "Connecting to Server", desc: "Establishing secure connection" },
-    { title: "Preparing Reward", desc: "Setting up your rewards" },
+    { title: "Preparing ", desc: "Setting up your rewards" },
     { title: "Security Check", desc: "Verifying you're human" }
   ];
 

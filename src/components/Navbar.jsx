@@ -18,7 +18,7 @@ const Navbar = () => {
               <h1 className="text-2xl font-extrabold bg-gradient-to-r from-purple-400 to-blue-300 bg-clip-text text-transparent">
                 RewardZone
               </h1>
-              <p className="text-[10px] text-gray-400 -mt-1">Earn Free Rewards</p>
+              <p className="text-[10px] text-gray-400 -mt-1">Get Free Script + Rewards</p>
             </div>
           </div>
 
