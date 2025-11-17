@@ -149,6 +149,65 @@ const rewards = [
     ],
   },
   {
+  id: "bloxfruitsupdate28",
+  gameName: "Blox Fruits",
+  title: "Blox Fruits Script UPDATE 28 | NO KEY | Fast Auto Farm to MAX | Boss & Halloween Event!",
+  description:
+    "Update 28 version — no key, ultra-fast auto farm, boss farm, Halloween event support, fruit sniper, and fully undetected execution.",
+  tags: ["Auto Farm", "No Key", "Boss Farm", "Fruit Sniper", "Halloween Event"],
+  rating: 4.9,
+  users: "4.1M",
+  size: "3.6MB",
+  badge: "NEW",
+  lockerId: "82drd3",
+  category: "Roblox Scripts",
+  heroImage:
+    "https://img.youtube.com/vi/Fa-Iq4FMMA8/maxresdefault.jpg",
+  images: [
+    "https://tr.rbxcdn.com/2d7d32e9b41b0e1a1e727ac45e514eb1/768/432/Image/Webp/noFilter",
+    "https://staticg.sportskeeda.com/editor/2024/06/0b7db-17179598756168-1920.jpg",
+    "https://cdn.mos.cms.futurecdn.net/rwkvUqWpK6hKzHkMWPt7Fk.jpg"
+  ],
+  features: [
+    {
+      icon: Zap,
+      title: "Fast Auto Farm to MAX",
+      desc: "Smart auto farm optimized for Update 28 with max-level pathing"
+    },
+    {
+      icon: Code,
+      title: "Boss Farm",
+      desc: "Instantly detect, teleport, and auto-kill bosses"
+    },
+    {
+      icon: Map,
+      title: "Event Support",
+      desc: "Full Halloween Event automation with fast candy & drops"
+    },
+    {
+      icon: Shield,
+      title: "No Key + Undetected",
+      desc: "Zero key system and updated 2025 anti-ban protection"
+    }
+  ],
+  reviews: [
+    {
+      name: "Ethan Blake",
+      initials: "EB",
+      rating: 5,
+      text: "Update 28 version is crazy fast. Auto farm + boss farm = perfect combo!",
+      gradient: "from-green-500 to-blue-500"
+    },
+    {
+      name: "Luna Park",
+      initials: "LP",
+      rating: 5,
+      text: "No-key is a lifesaver. Halloween event auto farm works flawlessly!",
+      gradient: "from-yellow-500 to-orange-500"
+    }
+  ]
+},
+  {
     id: "bloxfruitsupdate",
     gameName: "Blox Fruits",
     title: "Blox Fruits Script (Updated)",
